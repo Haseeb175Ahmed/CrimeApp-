@@ -1,0 +1,109 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: white;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  h2{
+    color: white;
+    cursor: pointer;
+  }
+
+  h2:hover { 
+    background-color: white;
+    color: black;
+  }
+  p{
+    color: white;
+  }
+
+
+  .ChangeColor{
+    color: Black;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .search
+  {
+    width: 400px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    color: blue;
+    font-display: bold;
+    font: 100;
+    /* margin: 50px; */
+    float: right;
+   
+  }
+  .searchLabel
+  {
+    margin-right: 85px;
+
+  }
+
+
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(29, 125, 193);
+    color: white;
+  }
+
+  .btn
+  {
+    width: 50px;
+    height: 20px;
+    margin: 20px;
+
+  }
